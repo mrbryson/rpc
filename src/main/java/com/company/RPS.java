@@ -64,7 +64,7 @@ public class RPS {
         if (playerChoice == computerChoice) {
             System.out.println("It's a tie, you both get one cookie.");
             cookies += 1;
-            System.out.println("You have " + cookies + " in counting");
+            System.out.println("You have " + cookies + " and counting");
         } else if (playerChoice == 0) {
             if(computerChoice == 1) {
                 System.out.println("You Lose, no cookies for you!");
@@ -73,27 +73,27 @@ public class RPS {
             } else {
                 System.out.println("You win!  Have two cookies!");
                 cookies += 2;
-                System.out.println("You have " + cookies + " in counting");
+                System.out.println("You have " + cookies + " and counting");
             }
         } else if (playerChoice == 1) {
             if(computerChoice == 2) {
                 System.out.println("You Lose, no cookies for you!");
                 cookies += 0;
-                System.out.println("You have " + cookies + " in counting");
+                System.out.println("You have " + cookies + " and counting");
             } else {
                 System.out.println("You win!  Have two cookies!");
                 cookies += 2;
-                System.out.println("You have " + cookies + " in counting");
+                System.out.println("You have " + cookies + " and counting");
             }
         } else if (playerChoice == 2) {
             if(computerChoice == 0) {
                 System.out.println("You Lose, no cookies for you!");
                 cookies += 0;
-                System.out.println("You have " + cookies + " in counting");
+                System.out.println("You have " + cookies + " and counting");
             } else {
                 System.out.println("You win!  Have two cookies!");
                 cookies += 2;
-                System.out.println("You have " + cookies + " in counting");
+                System.out.println("You have " + cookies + " and counting");
             }
         }
     }
